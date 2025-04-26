@@ -398,3 +398,64 @@ a {
   background-color: var(--primary-color);
   border: none;
 }
+
+/* ==============.feedback=============== */
+.feedback {
+  padding: 96px;
+  margin-top: 135px;
+  background-color: #2e2100;
+}
+
+.feedback .feedback-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback .feedback-item .info .avatar {
+  margin-bottom: 18px;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+}
+
+.feedback .feedback-item .info .member-name {
+  color: #f7f7f7;
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.41 /* 141.667% */;
+}
+
+.feedback .feedback-item .info .desc {
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86; /* 185.714% */
+}
+.feedback-item .dots {
+  gap: 6px;
+  display: flex;
+  margin-top: 28px;
+}
+
+.feedback-item .dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: #634700;
+}
+
+.feedback-item .dot:hover {
+  background-color: #ffb900;
+}
+
+.feedback-item .content {
+  width: 66%;
+}
+
+.feedback-item blockquote {
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.54; /* 153.846% */
+}
